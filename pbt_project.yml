@@ -1,0 +1,24 @@
+name: optum_dcag
+description: ''
+version: 0.0.1
+author: anshuman@simpledatalabs.com
+language: scala
+buildSystem: maven
+pipelines:
+  pipelines/first:
+    name: first
+    description: ''
+    author: anshuman@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-07-20 09:30:39'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
