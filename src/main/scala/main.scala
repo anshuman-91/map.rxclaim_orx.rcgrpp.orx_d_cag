@@ -1,5 +1,5 @@
 import graph._
-import io.prophecy.libs.Component._
+import io.prophecy.libs._
 import org.apache.spark.sql._
 
 @Visual(mode = "batch")
