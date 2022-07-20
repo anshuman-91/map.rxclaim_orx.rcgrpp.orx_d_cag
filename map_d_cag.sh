@@ -1,0 +1,1 @@
+spark-submit --files configs/map_d_cag.conf --class Main --conf spark.sql.legacy.allowUntypedScalaUDF=true --conf spark.sql.legacy.timeParserPolicy=LEGACY --conf spark.memory.fraction=0.9  --driver-memory 14g  map_d_cag_2.11-1.0-jar-with-dependencies.jar --confFile=map_d_cag.conf
